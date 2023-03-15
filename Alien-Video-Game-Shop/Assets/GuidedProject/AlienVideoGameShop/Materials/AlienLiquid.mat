@@ -8,64 +8,18 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AlienLiquid
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ValidKeywords:
-  - _EMISSION
+  m_Shader: {fileID: -6465566751694194690, guid: 9fcee17e93c365145a43695bde75a3c2, type: 3}
+  m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -80,39 +34,30 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _Blend: 0
-    - _BumpScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 1
-    - _Glossiness: 0
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
+    - _Ambient_Occlusion: 0.76
+    - _BubbleDensity: 15
+    - _BubbleFuzziness: 0.5
+    - _BubbleGiggleSpeed: 1
+    - _Bubble_Density: 16.5
+    - _Bubble_Fuzziness: 0.436
+    - _Bubble_Giggle_Speed: 1.04
+    - _Bubble_Size: 0.699
+    - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.791
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _UVSec: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
+    - _Smoothness: 0.892
+    - _Use_Bubble_Emission: 0
+    - _Use_Fluid_Emission: 1
     m_Colors:
-    - _BaseColor: {r: 0.76494026, g: 1, b: 0, a: 1}
-    - _Color: {r: 0.76494026, g: 1, b: 0, a: 1}
-    - _EmissionColor: {r: 0.05271925, g: 0.8962264, b: 0, a: 1}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _BaseColor: {r: 0.18357651, g: 0.8584906, b: 0.21533717, a: 0}
+    - _Base_Color: {r: 0, g: 1, b: 0.04759524, a: 0}
+    - _BubbleColor: {r: 0.6253387, g: 1, b: 0, a: 1}
+    - _BubbleSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Bubble_Color: {r: 0.5252714, g: 0.8113208, b: 0.06633435, a: 1}
+    - _EmissionBubble: {r: 2.6701567, g: 0, b: 0.26561767, a: 0}
+    - _EmissionFluid: {r: 0.3169697, g: 1.1263158, b: 0.060211774, a: 0}
+    - _Emission_Bubble: {r: 2, g: 0, b: 1.654902, a: 0}
+    - _Emission_Fluid: {r: 0.12042903, g: 2, b: 0, a: 0}
+    - _Specular_Color: {r: 0.9811321, g: 0.26533753, b: 0.26533753, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8613536726376631919
 MonoBehaviour:
