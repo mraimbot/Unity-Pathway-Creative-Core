@@ -38,9 +38,9 @@ Material:
     - _BubbleDensity: 15
     - _BubbleFuzziness: 0.5
     - _BubbleGiggleSpeed: 1
-    - _Bubble_Density: 16.5
-    - _Bubble_Fuzziness: 0.436
-    - _Bubble_Giggle_Speed: 1.04
+    - _Bubble_Density: 47.6
+    - _Bubble_Fuzziness: 0.524
+    - _Bubble_Giggle_Speed: 6.99
     - _Bubble_Size: 0.699
     - _QueueControl: 0
     - _QueueOffset: 0
