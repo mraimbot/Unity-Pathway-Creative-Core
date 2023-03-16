@@ -100,10 +100,10 @@ Material:
     m_Ints: []
     m_Floats:
     - Vector1_0f027488fa8f4de7b28d85aad9cc23e9: 1.21
-    - Vector1_49d0179ad2f8442c9de7d681fce948aa: 20
+    - Vector1_49d0179ad2f8442c9de7d681fce948aa: 9.1
     - Vector1_9748e5a5cbb64c26b01fd32774147976: -0.88
     - Vector1_bfddf0430af64564bee997bd762570dc: -0.55
-    - Vector1_e4c0339590754698b233a22b7542194f: 0.3
+    - Vector1_e4c0339590754698b233a22b7542194f: 0.481
     - Vector1_f629011b9eb24f38a61f0c65570b97d8: 1
     - Vector1_f86a23d90a1442a091e2a64e5ea698e4: 0.0015
     - _AlphaClip: 0
