@@ -598,6 +598,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 213789ffcc58477baa8cd52302046e75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &885009612 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4349156420973063458, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+  m_PrefabInstance: {fileID: 984735929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &885009614
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885009612}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e683a868ccd40c14f9b50cfd70450e23, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &984735929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1243,7 +1269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2461585387284869411, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2485613091819954618, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1877,6 +1903,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 19.365
       objectReference: {fileID: 0}
+    - target: {fileID: 3967845081557579672, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.013089676
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967845081557579672, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967845081557579672, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.99991435
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967845081557579672, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967845081557579672, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -178.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3988019036265794447, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -1983,7 +2029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4349156420973063458, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4349156421066121990, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_StaticEditorFlags
